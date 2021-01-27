@@ -1,0 +1,42 @@
+/*
+p {
+    border: 2px solid black;
+    background: orange;
+    display: block;
+    margin: 50px 0px;
+}
+p#ghost {
+    display: none;
+}
+*/
+
+.padre {
+    width: 250px;
+    height: 2500px;
+    margin: 25px;
+    background: orange;
+}
+/*
+.padre > div {
+    display: inline-block;
+}
+*/
+.hijo2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    float: right;
+}
+
+.hijo1 {
+    width: 50px;
+    height: 50px;
+    background: red;
+    display: inline-block;
+}
+.hijo3 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    clear: both;
+}
