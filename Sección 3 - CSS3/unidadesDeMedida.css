@@ -1,0 +1,54 @@
+/* Medidas Relativas */
+body {
+    font-size: 16px;
+}
+p.em {
+    font-size: 2em;
+}
+div p {
+    font-size: 2em;
+}
+div p.rem {
+    font-size: 3rem;
+}
+p.ex {
+    font-size: 1ex;
+}
+
+/* Medidas Absolutas*/
+p.in {
+    font-size: .2in;
+}
+p.cm {
+    font-size: 1.5cm;
+}
+p.mm {
+    font-size: 15mm;
+}
+p.pt {
+    font-size: 30pt;
+}
+p.pc {
+    font-size: 3pc;
+}
+
+/*
+    in: (inches o pulgadas) - 1in = 2.54cm
+    cm: centímetros
+    mm: milímetros
+    pt: puntos - 1pt = 0.35mm
+    pc: picas - 1pc = 12pt = 4.23mm
+*/
+
+/* Medidas Porcentuales */
+div.fija {
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+div.porcentual {
+    height: 100px;
+    width: 40%;
+    background: green;
+    margin: 5%;
+}
