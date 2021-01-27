@@ -1,0 +1,30 @@
+/*
+
+-webkit- 	Google Chrome, Safari, Navegador Android
+-moz- 		Firefox
+-o- 		Opera
+-ms- 		Internet Explorer, Edge
+-khtml- 	Konqueror
+
+*/
+
+header {
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(top, #000 0%, #fff 100%);
+	
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #000 0%, #fff 100%);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #000 0%, #fff 100%);
+
+    /* IE 6 - 9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 );
+
+    /* IE 10+ */
+    background: -ms-linear-gradient(top, #000 0%, #fff 100%);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #000 0%, #fff 100%);    
+}
