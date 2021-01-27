@@ -40,3 +40,20 @@ p#ghost {
     background: blue;
     clear: both;
 }
+
+/* 
+Margin: Aplica al extenior del elemento.
+Padding: Aplica al interior del elemento.
+
+Display: 
+    block: Se bloquea el elemento y ocupa el tamaño total.
+    inline-block: Se colocan uno al lado del otro, siempre y cuando haya espacio.
+    inline: Se colocan uno al lado del otro, pero es solo un bloque de linea.
+    none: Oculta el elemento.
+
+Position:
+    static: Se quedan en el sitio por defecto.
+    relative: Puedo decirle en que punto moverse respecto al origen.
+    absolute: Cuando un elemento tiene un absolute es como si no existiera para el resto de elementos en cuanto a posicionamiento. 
+    fixed: Se posiciona con respecto al body.
+*/
