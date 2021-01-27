@@ -1,0 +1,37 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.reservadas {
+    background: Lime;
+}
+
+/* RGB Decimal */
+.luzRGB {
+    background: rgb(127,51,191);
+}
+
+/* RGB Hexadecimal */
+.hex {
+    background: #00FF00;
+}
+
+/* RGB Porcentual */
+.porcentual {
+    background: rgb(50%,25%,75%);
+}
+
+/* Colores con HSL */
+.hsl {
+    background: hsl(120,50%,20%);
+}
+
+/* Colores con Transparencia */
+.hsl_transparencia {
+    background: hsla(127,50%,20%, 0.8);
+}
+.rgb_transparencia {
+    background: rgba(127,51,191, 0.5);
+}
