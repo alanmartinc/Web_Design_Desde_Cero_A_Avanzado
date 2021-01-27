@@ -12,6 +12,7 @@ p#azul {
 .grande {
     font-size: 20px;
 }
+elemento1 + elemento2
 p+p {
   font-weight: bolder;  
 }
