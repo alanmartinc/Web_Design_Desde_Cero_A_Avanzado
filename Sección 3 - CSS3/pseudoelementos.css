@@ -1,0 +1,16 @@
+p {
+    position: relative;
+}
+
+p:after {
+    /* Los pseudoelementos no son seleccionables por el usuario, es parte del estilo */
+    content: "Este es un saludo: ";
+    top: 50px;
+    position: relative;
+    left: 80px;
+}
+
+/* 
+After: Pinta a partir del punto inicial del elemento.
+Before: Pinta a partir del punto final del elemento.
+*/
