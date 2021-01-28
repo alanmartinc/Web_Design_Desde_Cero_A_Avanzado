@@ -1,0 +1,41 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 50px;
+}
+.imagen {
+    background: url("firma.gif"),
+                url("imagen.jpg");
+
+    /* La primer imagen no se repite y la segunda si */
+    background-repeat: no-repeat, repeat;
+    /* La primer imagen se va a la derecha y abajo, la segunda queda centrada */ 
+    background-position: right bottom, 
+                        center center;
+}
+
+/*
+Para posicionar el fondo de un elemento tenemos 3 opciones: 
+    border-box (desde el borde), 
+    padding-box (desde la zona del padding),
+    content-box (desde la zona del contenido)
+*/
+
+.degradados { /* 
+        background: -moz-linear-gradient(
+        left 20deg,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+    );*/
+
+    background: -webkit-radial-gradient(
+        center,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+    );
+}
