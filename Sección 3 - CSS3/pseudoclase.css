@@ -1,0 +1,58 @@
+a#link1 {
+    font-size: 20px;
+	background: green;
+	text-decoration: none;
+}
+a#link2:link {
+	color: green;	
+}
+a#link1:visited {
+    color: red;	
+    /* Se puede cambiar el color solamente en pseudoclases, si se quiere cambiar otros estilos hay que aplicarselos al elemento en si */
+}
+p:hover {
+	color: green;
+	font-size: 20px;
+	font-weight: bolder;
+}
+span:active {
+	color: green;
+}
+input:focus {
+	border-radius: 5px;
+	background: #FFD6D6;
+}
+
+/*
+Básicas:
+    link: No visitados.
+    visited: Visitados.
+    hover: 
+        Desktop: pasar el boton por encima. 
+        Mobile: Dar click.
+    active: Se activa cuando se hace click.
+    focus: Se activa cuando se le hace foco.
+*/
+
+/*
+Avanzadas:
+    :nth-child(N) --> Numero que ocupa como hijo dentro del padre el elemento que estamos apuntando.
+    :nth-last-child(N) --> Mismo que el anterior pero se marca empezando desde el final.
+    :nth-of-type(N) --> Marcamos el tipo y la posicion.
+    :nth-last-of-type(N) --> Mismo que el anterior pero se marca empezando desde el final.
+    :first-of-type --> Se marca el primer tipo.
+    :last-of-type --> Se marca el ultimo tipo.
+    :only-of-type --> Se marca solamente un tipo, si hay dos ya no existe.
+    :empty --> Se marca a los vacios.
+    :not(S) --> El elemento que no sea el selector se marcaria.
+    :last-child --> Ultimo hijo.
+    :only-child --> Unico hijo.
+    :root --> Elemento raiz.
+    :enable --> Elementos activados.
+    :disable --> Elementos desactivados.
+    :checked --> Para elementos checkbox o radio buttons que esten activados.
+
+    Otra forma de marcar en los parentesis de las pseudoclases es con: 
+    even --> pares
+    odd --> impares
+*/
