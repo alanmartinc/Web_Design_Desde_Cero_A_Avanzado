@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "irlandesa";
+    src: url("font/irlandesa.eot");
+    src: local('?'),
+        url("font/irlandesa.woff") format("woff"),
+        url("font/irlandesa.ttf") format("truetype");
+}
+p {
+    font-family: "irlandesa", Arial;
+}
+span {
+    font-family: 'Architects Daughter', cursive;
+}
+p.text {
+    font-family: arial;
+    font-weight: 700;
+    font-style:  normal;
+    text-align: justify;
+    /*text-decoration: line-through;
+    text-transform: lowercase;*/
+    font-variant: small-caps;
+    text-indent: 14px;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+}
+p.text:first-letter {
+    font-size: 30px;
+}
+p.text:first-line {
+    font-size: 30px;
+}
+
+/*
+Los valores para font-weight pueden ser 100, 200, 300, 400, 500, 600, 700, 800, normal, lighter, bold y bolder.
+
+Las palabras reservadas tiene su equivalencia: 
+normal = 400, 
+bold = 700, 
+bolder = 900,
+lighter = 100
+
+Los valores para font-style pueden ser normal, italic u oblique.
+Los valores para text-align pueden ser left, right, center o justify.
+Los valores para text-decoration pueden ser normal o none, underline, overline o line-through.
+Los valores para text-transform pueden ser capitalize, uppercase o lowercase.
+Los valores para font-variant puede ser small-caps. 
+
+text-indent: Sirve para indentar el texto.
+letter-spacing: Espaciado entre letras.
+word-spacing: Espaciado entre palabras.
+
+:first-letter --> Sirve para destacar la primera letra del texto.
+:first-line --> Sirve para destacar toda la linea del texto.
+*/
