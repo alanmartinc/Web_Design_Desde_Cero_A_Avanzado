@@ -1,0 +1,36 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: white;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 0px gray,
+                2px 2px 2px gray,
+                3px 3px 4px gray,
+                4px 4px 6px gray,
+                5px 5px 8px black,
+                6px 6px 10px black;
+}
+p {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px #374692;
+    color: white
+}
+
+/*
+La estructura de las sombras aplicadas a cajas (box-shadow) o a texto (text-shadow) tiene 4 valores: 
+    
+    1) DesplazamientoHorizontal 
+    2) DesplazamientoVertical 
+    3) Difuminado 
+    4) Color
+
+Añadiendo el valor "inset" como primer valor del conjunto box-shadow seguido de la estructura común, 
+establecemos la sombra de forma interna en el elemento al que se la queramos asignar.
+
+Para usar múltiples sombras aplicadas al mismo elemento solo hay que separar cada sombra con 
+una coma (,) y respetar la estructura básica.
+*/
