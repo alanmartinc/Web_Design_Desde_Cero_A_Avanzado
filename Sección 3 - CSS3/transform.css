@@ -1,0 +1,45 @@
+/*
+transform: tipo(cantidad);
+transform: tipoX(cantidad);
+transform: tipoY(cantidad);
+transform: tipo(cantidadX, cantidadY);
+transform: tipo() tipo() tipo()...;
+*/
+
+div {
+    height: 200px;
+    width: 200px;
+    background: orange;
+    border: 2px solid black;
+    margin: 50px;
+
+    transform: rotate(20deg);
+    transform-origin: 5%, 20%;
+    transform: skew(20deg, 5deg);
+
+    /*
+    Tipos de transformaciones:
+    rotate
+    skew
+    translate
+    scale
+    */
+    
+    transition-property: all;
+    transition-duration: 6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 3s;
+
+    /*
+    transition: all 2s linear;
+    ease, 
+    ease-in
+    ease-out
+    ease-in-out
+    linear
+    */
+}
+.aux:hover {
+    transform: rotate(90deg) skew(10deg);
+    background: red;
+}
