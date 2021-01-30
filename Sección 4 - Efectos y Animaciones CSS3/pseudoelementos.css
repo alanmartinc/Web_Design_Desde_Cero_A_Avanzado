@@ -1,0 +1,14 @@
+div {
+    border: 2px solid black;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+
+div::before {
+    content: 'Hola';
+}
+
+div::after {
+    content: 'Mundo';
+}
