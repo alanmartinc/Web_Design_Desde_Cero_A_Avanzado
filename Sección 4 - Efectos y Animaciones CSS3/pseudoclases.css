@@ -1,0 +1,21 @@
+div {
+    border: 2px solid black;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+
+/* Cuando el ratón esta encima */
+div:hover {
+    background: orange;
+}
+
+/* Cuando se hace click sobre un enlace */
+a:focus {
+    color: red;
+}
+
+/* Cuando se hace click pero una vez que se levanta deja de funcionar */
+a:active {
+    color: green;
+}
