@@ -1,0 +1,84 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a8cf45;
+    margin: 10px 10px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px 30px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.triangulo_lateral {
+    -webkit-transform: translateX(0);
+}
+.triangulo_lateral:before {
+    content: '';
+
+    /* Duración */
+    -webkit-transition-duration: 0.3s;
+
+    /* Flecha */
+    border-style: solid;
+    border-width: 15px 15px 15px 0px;
+    border-color: transparent #a8cf45 transparent transparent;
+
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -15px;
+}
+.triangulo_lateral:hover:before {
+    left: -13px;
+}
+
+.esquina_pagina {
+    -webkit-transform: translateX(0);
+}
+.esquina_pagina:before {
+    content: '';
+    -webkit-transition-duration: 0.3s;
+
+    /* Esquina Doblada */
+    background: -webkit-linear-gradient(45deg, white 45%, #aaa 50%, #ccc 60%, white);
+
+    left: 0;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+.esquina_pagina:hover:before {
+    width: 35px;
+    height: 35px;
+}
+
+.sombra_fija {
+    -webkit-transform: translateX(0);
+}
+.sombra_fija:before {
+    content: '';
+    -webkit-transition-duration: 0.3s;
+
+    /* Sombra */
+    background: -webkit-radial-gradient(center, ellipse, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 80%);
+
+    /* No se ve la sombra */
+    opacity: 0;
+
+    position: absolute;
+    width: 90%;
+    height: 10px;
+    left: 5%;
+    top: 100%;
+}
+.sombra_fija:hover {
+    -webkit-transform: translateY(-5px);
+}
+.sombra_fija:hover:before {
+    -webkit-transform: translateY(5px);
+
+    /* Se ve la sombra */
+    opacity: 1;
+}
