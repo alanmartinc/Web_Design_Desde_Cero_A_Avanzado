@@ -268,5 +268,15 @@ div {
         opacity: 0;
         -webkit-transform: rotate(-200deg);
     }
+}
 
+.giroVariantes {
+    -webkit-transform-origin: 100% bottom;
+    -webkit-animation: 1s giroVariantes 1;
+}
+@-webkit-keyframes giroVariantes {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotate(-100deg);
+    }
 }
