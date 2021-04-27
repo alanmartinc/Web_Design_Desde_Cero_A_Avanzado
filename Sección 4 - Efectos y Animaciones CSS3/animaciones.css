@@ -223,3 +223,24 @@ div {
         opacity: 0.8;
     }
 }
+
+.veloz {
+    -webkit-animation: 1s veloz 1;
+}
+@-webkit-keyframes veloz {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-200%)
+                            skewX(30deg);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(-20%)
+                            skewX(-30deg);
+    }
+
+    80% {
+        -webkit-transform: translateX(0%)
+                            skewX(15deg);
+    }
+}
