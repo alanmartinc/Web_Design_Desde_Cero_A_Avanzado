@@ -224,7 +224,7 @@ div {
     }
 }
 
-.veloz {
+.velozIn {
     -webkit-animation: 1s veloz 1;
 }
 @-webkit-keyframes veloz {
