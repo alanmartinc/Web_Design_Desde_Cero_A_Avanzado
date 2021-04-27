@@ -244,3 +244,17 @@ div {
                             skewX(15deg);
     }
 }
+
+.velozOut {
+    -webkit-animation: 1s velozOut 1;
+}
+@-webkit-keyframes velozOut {
+    15% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-500%)
+                            skewX(-70deg);
+    }
+}
