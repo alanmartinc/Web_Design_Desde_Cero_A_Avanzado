@@ -82,3 +82,46 @@ div {
     /* Se ve la sombra */
     opacity: 1;
 }
+
+.sombra_movil {
+    -webkit-transform: translateX(0);
+}
+.sombra_movil:before {
+    content: '';
+    -webkit-transition-duration: 0.3s;
+
+    /* Sombra */
+    background: -webkit-radial-gradient(center, ellipse, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 80%);
+
+    /* No se ve la sombra */
+    opacity: 0;
+
+    position: absolute;
+    width: 90%;
+    height: 10px;
+    left: 5%;
+    top: 100%;
+}
+.sombra_movil:hover {
+    -webkit-transform: translateY(-5px);
+    -webkit-animation: 1.5s movercaja infinite;
+}
+
+@-webkit-keyframes movercaja {
+    50% {
+        -webkit-transform: translateY(-3px);
+    }
+}
+
+.sombra_movil:hover:before {
+    opacity: 0.4;
+    -webkit-transform: translateY(5px);
+    -webkit-animation: 1.5s moversombra infinite;
+}
+
+@-webkit-keyframes moversombra {
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(3px);
+    }
+}
