@@ -1,6 +1,5 @@
 # Web_Design_Desde_Cero_A_Avanzado
 ## Aprende a Diseñar Páginas Web Responsive Design, atractivas, de forma profesional y sin dificultad con HTML5 y CSS3 - https://www.udemy.com/course/diseno-web-desde-cero/
-## Capacitación en Technisys
 
 - Crear páginas web con los estándares actuales de HTML5.
 - Saber programar en JavaScript.
